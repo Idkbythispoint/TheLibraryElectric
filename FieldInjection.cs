@@ -1,6 +1,6 @@
 using FieldInjector;
 using TheLibraryElectric.Environment;
-using TheLibraryElectric.LabFusion;
+using TheLibraryElectric.TLEFusion;
 using TheLibraryElectric.Markers;
 using TheLibraryElectric.Misc;
 using TheLibraryElectric.PlayerUtil;
@@ -97,6 +97,8 @@ namespace TheLibraryElectric
             SerialisationHandler.Inject<Boat>();
             ModConsole.Msg("Hopefully injected Boat", 1);
             SerialisationHandler.Inject<TimeCycleHandler>();
+            ModConsole.Msg("Hopefully injected TimeCycleHandler", 1);
+            SerialisationHandler.Inject<BootlegPlayerRig>();
             ModConsole.Msg("Hopefully injected TimeCycleHandler", 1);
             ModConsole.Msg("All fields are probably injected. I can't tell since this isn't async so I can't slap a bool on it.", 1);
         }

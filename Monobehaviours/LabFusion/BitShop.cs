@@ -3,7 +3,7 @@ using LabFusion.SDK.Points;
 using UltEvents;
 using UnityEngine;
 
-namespace TheLibraryElectric.LabFusion
+namespace TheLibraryElectric.TLEFusion
 {
     public class BitShop : MonoBehaviour
     {
